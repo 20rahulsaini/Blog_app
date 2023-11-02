@@ -1,0 +1,39 @@
+/* SinglePost.css */
+
+.single-post {
+    max-width: 100%; /* Adjust the width of the single post as needed */
+    margin: 0 auto;
+    background-color: #fff;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+    /* border: 1px solid #ddd; */
+    text-align: center;
+    padding: 20px;
+    margin-top: 0.4rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    height: fit-content;
+    /* margin-bottom: 2rem; */
+  }
+  
+  .single-post img {
+   width: 850px;
+    height: 400px;
+    margin-top: 0.6rem;
+    border-radius: 0.4rem;
+  }
+  
+  .single-post-title {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+  
+  .single-post p {
+    margin-top: 15px;
+    /* word-wrap: break-word; */
+    /* word-break: break-all; */
+    margin: 2rem 7rem; 
+    line-height: 20px;
+    /* text-align: center; */
+
+  }
+  
