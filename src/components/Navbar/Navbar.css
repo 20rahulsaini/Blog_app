@@ -1,0 +1,57 @@
+/* Navbar.css */
+
+/* Reset some default browser styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Style the header */
+header {
+  /* background-color: #333; */
+  color: #fff;
+  padding: 10px 0;
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+/* Style the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+/* Style the logo */
+.logo img {
+  height: 60px;
+  width: 90px;
+}
+
+/* Style the navigation links */
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+/* Add hover effect for the navigation links */
+.nav-links a:hover {
+  color: rgb(255, 97, 97);
+}
